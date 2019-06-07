@@ -25,9 +25,14 @@ describe("addNegative", function(){
     });
 
     
-    it("should throw an exception if there are negative numbers", () => {
+    it("should allow delimiters of any length", () => {
         expect(() => { addNegative("-7,3") }).toThrowError();
-});
+    });
+
+
+    it ("should allow multiple delimiters ", function(){
+        expect(addNegative("//[*][%]\n1*2%3")).toBe(6);
+    });
 
 
 });
