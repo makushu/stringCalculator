@@ -8,7 +8,6 @@ function add(num){
     sum = 0,
     newNum = 0;
 
-
     //looping through everything to get the negatives
     for(var a=0; a<num.length; a++){
         if(num[a] == minus){
