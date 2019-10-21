@@ -1,5 +1,5 @@
 
-describe("add", function(){
+describe("add",function(){
 
     it ("should add two numbers given as strings", function(){
         expect(addNegative("3,4")).toBe(7);
