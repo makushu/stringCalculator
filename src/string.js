@@ -1,5 +1,5 @@
 
-function addNegative(num){
+function add(num){
 
     //spliting the string
     num = num.split('');
